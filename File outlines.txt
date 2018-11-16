@@ -1,0 +1,53 @@
+Outline of how files interact:
+
+Function files
+ Intro  :  (v1_wip)
+ goods_consumption : (not started)
+ production  : (v1)
+ map_creation  :  (v1_wip)
+ movement  :  (not started)
+ combat  :  (not started)
+ construction  :  (not started)
+ learning  :  (not started)
+ trade  :  (not started)
+ save  :  (not started)
+ settlement_change  :  (not started)  ((includes: building completion, tile degradation, learning, pop_upgrades)
+ 
+ AI Decision making
+	Goals  :  (not started)
+	foreign relations  :  (not started)
+	Production  :  (not started)
+	Expansion  :  (not started)
+ 
+ Execution files
+	Game_start (intro, map_creation)  :  (v1)
+	spring (production, consumption, construction, movement)  :  (not started)
+	summer (actions, consumption, production, trade)  :  (not started)
+	fall (actions, consumption, movement)  :  (not started)
+	winter (consumption)  :  (not started)
+	yearly_change (construction, settlement_change, relations)  :  (not started)
+ 
+	Master execute:  (spring, summer, fall, winter, yearly_change)  :  (not started)
+ 
+ Dynamic Data storage files
+	map_info  :  (not started)
+	team_info  :  (not started)
+	settlement_info  :  (not started)
+	seasonal_info  :  (not started)
+	learning_info  :  (not started)
+	relations_info  :  (not started)
+	tile_info  :  (not started)  ##unsure if this is it's own dictionary or nested in map_info
+ 
+ Static Data storage files
+ terrain_modifiers  :  (not started)
+ unit_modifiers  :  (not started)
+ settlement modifiers  :  (not started)
+ seasonal modifiers  :  (not started)
+ relations_modifiers  :  (not started)
+ 
+ Assets:
+ geographic_features
+ settlement_features
+ movement_features
+ 
+ 

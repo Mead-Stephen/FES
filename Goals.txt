@@ -1,0 +1,94 @@
+FES V1
+
+full cycle 
+	Intro + map creation (maps should have terrain)
+	spring, summer, fall, winter, annual change (include production and consumption)
+	construction (settlement -> city/castle)
+	expansion
+Products
+	grain
+	produce
+	wood
+	stone
+	gold
+	iron
+	meat
+	wool
+
+consumption
+	grain/produce/wood/wool/meat for all pops
+	stone/wood for buildings
+	iron/wood for miners (bonus production)
+	iron for woodcutters (bonus production)
+	iron/wood for farmers (bonus production)
+	wool/iron for soldiers
+	wool/gold for clergy
+
+
+populations/units
+	workers
+	military
+Buildings
+	granary + upgrades
+	housing repeatable
+	walls + upgrades
+	market + upgrades (town only)
+	church
+	military buildings + upgrades (castle only)
+	castle v town
+	
+Options
+	1p vs 2p vs CPU
+	change number of players
+	# of turns until game completion
+
+AI
+	Goal orientation: peaceful['expansion']
+		should recognize terrain advantages, expand to new tiles as appropriate
+		decide on city/castle for growth
+
+FES V2
+
+full cycle 
+	trade
+	save file
+	movement
+	gui for map
+
+Learning
+	tile modifiers
+	decision points
+
+AI goal orientation: peaceful['trade/wealth']
+	
+v3 and beyond
+
+combat
+	raiding
+	invasion
+foreign relations
+ AI goal orientation:hostile['fear'] 
+					 hostile['greed']
+learning interchange
+
+maps
+	temp, precipations ->more tile mods
+production goods:
+	weapons
+	clothing
+	horses
+	trade equipment (wood + horses)
+engineering works
+	bridges
+	irrigation
+	roads
+buildings	
+	more military buildings (archers, cavalry)
+	school (allows siege, traders, learning) + bonus to clergy, government
+	palace
+taxes	
+time delay (this will likely mean a reconfig of how the game operates from 1 player at a time to all players by step)
+unrest		
+	
+	
+		
