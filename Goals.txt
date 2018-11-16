@@ -3,7 +3,7 @@ FES V1
 full cycle
 	plan
 	grow/ woodcut / quarry
-	raid (if chosen)
+	raid/invade/build (if chosen)
 	harvest
 	trade
 	consume
@@ -37,5 +37,6 @@ Options
 AI
 	Goal orientation: expansion(peaceful), revenge, profit(trade), expansion(war)
 	
+Map
 	
 		
